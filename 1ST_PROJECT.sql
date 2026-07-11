@@ -115,9 +115,6 @@ GROUP BY 1,2
 	WHERE rank= 1;
 
 
-
-
-
 -- Q.8 Write a SQL query to find the top 5 customers based on the highest total sales
 
 SELECT
@@ -127,9 +124,6 @@ FROM retail_sales
 GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 5 ;
-
-
-
 
 
 -- Q.9 Write a SQL query to find the number of unique customers who purchased items from each category.
